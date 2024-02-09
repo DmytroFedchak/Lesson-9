@@ -1,0 +1,24 @@
+form {
+    background-color: aliceblue;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+}
+h2 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding: 3px;
+}
+label {
+    display: inline-block;
+    width: 200px;
+}
+textarea{
+    vertical-align: top;
+}
+.sub {
+   text-align: center;
+}

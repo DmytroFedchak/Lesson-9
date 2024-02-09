@@ -1,0 +1,16 @@
+form {
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    background-color: rgb(235, 244, 244);
+}
+li {
+    list-style: none;
+    padding: 3px;
+}
+span {
+    display: inline-block;
+    width: 100px;
+}
+.sub {
+    text-align: center;
+}

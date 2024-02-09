@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form action="" id="form">
+        <ul>
+            <h2>Інформація про користувача</h2>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="userName" placeholder="Enter your name">
+            </li>
+            <li>
+                <label for="pas">Password:</label>
+                <input type="password" id="pas" name="userPassword" placeholder="Enter your password"> 
+            </li>
+            <li>
+                <label for="confirmPass">Confirm Password:</label>
+                <input type="password" id="confirmPass" name="confirmPassword" placeholder="Confirm your password">
+            </li>
+            <li>
+                <label for="dob">Date of Birthday:</label>
+                <input type="date" id="dob" name="DateOfBirthday">
+            </li>
+            <li>
+                <label for="male">Male:</label>
+                <input type="radio" id="gender" value="male" name="sex">
+            </li>
+            <li>
+                <label for="female">Female:</label>
+                <input type="radio" id="gender1" value="female" name="sex">
+            </li>
+            <li>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="userAge" placeholder="Select your age">
+            </li>
+            <li>
+                <label for="about">About yourself:</label>
+                <textarea name="" id="about" cols="30" rows="10" placeholder="Start to text"></textarea>
+            </li>
+            <li class="sub">
+                <input type="submit">
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <a href="./filter.html">Form Filter</a>
+</body>
+</html>
